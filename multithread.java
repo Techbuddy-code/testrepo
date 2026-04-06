@@ -18,8 +18,8 @@ class mainThread
 {
     public static void main(String[] args)
     {
-        ThreadA objA = new ThreadA(Thread.setpriority(s));
-        Thread objB = new ThreadB(Thread.getpriority(g));
+        ThreadA objA = new ThreadA();
+        Thread objB = new ThreadB();
         objA.start();
         objB.start();
     }
